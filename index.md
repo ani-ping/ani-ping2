@@ -3,14 +3,36 @@ title: Home
 layout: home
 ---
 Landing page! Here we go.
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+We are using the [Just the Docs] theme for this page, to build out the concept.
 
-More specifically, the created site:
+The goal is to create a photo reference site where you can filter by:
+1. Character
+2. Series / Movies / Game
+3. Arc
+4. Outfit / Form
+5. Episode
+   and also use the settings to avoid *spoilers*.
+   
+The Proof of Concept will target WP, as it has an extensive set of source material.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+Features that I hope to create:
+- Gallery for browsing without text/navbar
+- Public photo repository
+- Photo moderation/approval
+- Search support, including "similar results"
+- An Advanced Settings menu, where you can filter as mentioned above
+- Support for Tags - assigning tags, searching by tags, editing tags, etc
+- Descriptive text and text-to-audio support
+- Translation support
+- Advertising/monetization capabilities
+
+
+
+
+
+Preserving this section for further study:
+
 
 Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
 
